@@ -38,3 +38,13 @@ for (var i = 0; i < pacientes.length; i++) {
         tdImc.textContent = imc.toFixed(2)
     }
 }
+
+var botaoadicionar = document.querySelector('#adicionar-paciente')
+botaoadicionar.addEventListener('click', function (event) {
+    event.preventDefault()
+    console.log('Oi eu sou o botao e fui clicado')
+})
+
+titulo.addEventListener('click', function () {
+    console.log('fui clicado')
+})
