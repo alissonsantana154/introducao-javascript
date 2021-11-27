@@ -139,3 +139,13 @@ button:disabled {
 #mensagem-erro {
     color: red;
 }
+
+#filtrar-tabela {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.invisivel {
+    display: none;
+}
